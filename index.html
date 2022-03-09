@@ -1,32 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <img class="logo"src="img/Dog/LogoDog.svg">
-    <h1 class="tituloPrincipal">DOGcall</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inicio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-    <h2 class="tituloPrincipal">
-       ADOPTA 
-    </h2>
-    <p>Lorem ipsum, or lipsum as it is sometimes known, is century who is 
-         thought to have scrambled parts of Cicero's De Finibus Bonorum 
-         et Malorum for use in a type specimen book. It usually begins wit
-         h: Lorem ipsum, or lipsum as it is sometimes known, is dummy text
-         used in laying out print, graphic or web designs. The passage 
-         is attributed to an unknown typesetter in the 15th century who is thought to h
-         ave scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specim
-         en book. It usually beaphic or web designsrambled parts of Cicero
-        's De Finibus Bonorum et Malorum for use in a type specimen book. It usually begins with: </p>
-        <a class="boton-personalizado">YA!</a>
+  <body>
+    <div class="contenedor">
+      <!-- Contenido -->
+      <main>
+        <!-- banner -->
+        <section class="banner">
+          <h2 class="banner__titulo">Website's <br />Content Audit</h2>
+          <h4 class="banner__subtitulo">in 8 Easy Steps</h4>
+          <a href="#" class="banner__boton">Learn more</a>
+        </section>
+        <!-- texto, explicación -->
+        <section class="texto">
+          <p class="texto__saludo">Hi Toni,</p>
+          <p class="texto__cuerpo">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam,
+            quibusdam.
+          </p>
+          <p class="texto__cuerpolink">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+            impedit nostrum dolorum, esse aperiam iste suscipit
+            <a class="texto__cuerpolink--link" href="#"
+              >dolor eum obcaecati tempore.</a
+            >
+          </p>
+          <article id="texto__botonCentrar">
+            <a href="#" class="texto__boton">Content Audit in 8 Steps</a>
+          </article>
+        </section>
+        <!-- contacto empresa -->
+        <section class="contacto">
+          <!-- PICTURE imagen de empresa de contacto -->
+          <picture class="contacto__avatar">
+            <!-- escritorio -->
+            <source
+              srcset="img/contacto.png 1x, img/contacto@2x.png 2x"
+              media="(min-width:1200px)"
+            />
 
-    <img class="dog"src="img/Dog/Dog.jpg">
-
-
-</body>
+            <!-- Etiqueta img -->
+            <img id="perfil" src="" alt="Persona contacto empresa" />
+          </picture>
+          <!-- Datos de contacto -->
+          <ul class="contacto__datos">
+            <li>Cheers,</li>
+            <li>Zlata Verzhbitskaia</li>
+            <li>SEO PowerSuite</li>
+          </ul>
+        </section>
+      </main>
+      <!-- copyright y localización -->
+      <footer>
+        <h6 class="copyright">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt,
+          quo?
+        </h6>
+      </footer>
+    </div>
+  </body>
 </html>
